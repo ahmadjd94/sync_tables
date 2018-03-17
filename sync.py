@@ -23,7 +23,7 @@ class HashBase(object):
 
 
 if __name__ == "__main__":
-    engine = create_engine('postgresql://root:ajdm3gtrsd3na@localhost/mesc')
+    engine = create_engine('postgresql://root:pass@localhost/mesc')
     base = declarative_base()
     meta = MetaData()
 
